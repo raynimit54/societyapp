@@ -8,8 +8,8 @@ class ChatViewModel : ViewModel() {
 
     private val _messages = MutableLiveData<List<ChatMessage>>().apply {
         value = listOf(
-            ChatMessage("Hello, everyone!", "John Doe", "09:00 AM"),
-            ChatMessage("Hi John! How are you?", "Jane Smith", "09:05 AM")
+            ChatMessage("Hello, everyone!", "Anamika", "09:00 AM"),
+            ChatMessage("Hi Anamika! How are you?", "Vishnu", "09:05 AM")
         )
     }
     val messages: LiveData<List<ChatMessage>> = _messages
